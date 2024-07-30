@@ -37,4 +37,33 @@ or for creating new tables in databases migrate the database
 
 >npx prisma migrate dev --name init
 
+change ts config rootdir and outdir, src and dist
+
+to see js file while writing db, run tsc -b, its create dist/js file
+
+
+>tsc -b  
+
+> npx ts-node .\src\create-user.ts
+
+OR 
+
+> node .\dist\create-user.js
+
+prisma GUI
+
+>npx prisma studio
+
+
+extra learning source code
+
+>https://github.com/100xDevs-hkirat/week-13-prisma
+
+
+
+
+
+
+
+
 
